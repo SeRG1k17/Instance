@@ -1,0 +1,16 @@
+PODS:
+  - Instance (0.1.0)
+
+DEPENDENCIES:
+  - Instance (from `../`)
+
+EXTERNAL SOURCES:
+  Instance:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Instance: 728ef278c2c2e5d29b41a9f95c1bd3ce007d8331
+
+PODFILE CHECKSUM: 6f5791b10fa4ccaa3f9c415e7903fb0d19b240f2
+
+COCOAPODS: 1.5.3

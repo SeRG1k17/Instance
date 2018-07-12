@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yqM-Nh-aLS">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--First-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Instance" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jjt-pm-16E" customClass="BorderButton" customModule="Instance" customModuleProvider="target">
+                                <rect key="frame" x="35.5" y="80" width="249" height="30"/>
+                                <state key="normal" title="Controller in &quot;Second&quot; SB(not initial)"/>
+                                <connections>
+                                    <action selector="secondVCDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F9a-SU-W0E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqi-hw-UU4" customClass="BorderButton" customModule="Instance" customModuleProvider="target">
+                                <rect key="frame" x="59.5" y="125" width="201" height="30"/>
+                                <state key="normal" title="Show custom vc - another sb"/>
+                                <connections>
+                                    <action selector="customVCDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MdT-kH-sHi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lb9-z2-ABQ" customClass="BorderButton" customModule="Instance" customModuleProvider="target">
+                                <rect key="frame" x="75.5" y="170" width="168" height="30"/>
+                                <state key="normal" title="Show vc from current sb"/>
+                                <connections>
+                                    <action selector="inCurrentVCDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jUj-7t-3du"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIz-mx-Bz4" customClass="BorderButton" customModule="Instance" customModuleProvider="target">
+                                <rect key="frame" x="89.5" y="217" width="141" height="30"/>
+                                <state key="normal" title="nameSB == nameVC"/>
+                                <connections>
+                                    <action selector="sameNamesDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nlN-K3-zV4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGe-Sd-UGU" customClass="BorderButton" customModule="Instance" customModuleProvider="target">
+                                <rect key="frame" x="129" y="255" width="62" height="30"/>
+                                <state key="normal" title="From Xib"/>
+                                <connections>
+                                    <action selector="xibDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DPm-sV-i6d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ywg-i8-tdT" customClass="BorderButton" customModule="Instance" customModuleProvider="target">
+                                <rect key="frame" x="93" y="293" width="135" height="30"/>
+                                <state key="normal" title="Collection From Xib"/>
+                                <connections>
+                                    <action selector="collectionDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dv8-7Q-iLW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bqi-hw-UU4" firstAttribute="top" secondItem="Jjt-pm-16E" secondAttribute="bottom" constant="15" id="0zx-pD-ZXc"/>
+                            <constraint firstItem="OIz-mx-Bz4" firstAttribute="top" secondItem="Lb9-z2-ABQ" secondAttribute="bottom" constant="17" id="2Go-Tu-jDR"/>
+                            <constraint firstItem="bqi-hw-UU4" firstAttribute="centerX" secondItem="Jjt-pm-16E" secondAttribute="centerX" id="9l3-Mo-Rxd"/>
+                            <constraint firstItem="Lb9-z2-ABQ" firstAttribute="centerX" secondItem="bqi-hw-UU4" secondAttribute="centerX" id="DDT-Az-7fb"/>
+                            <constraint firstItem="OIz-mx-Bz4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="GiT-9y-v9I"/>
+                            <constraint firstItem="hGe-Sd-UGU" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="HR1-mv-OKn"/>
+                            <constraint firstItem="Ywg-i8-tdT" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="KI8-wA-Vn5"/>
+                            <constraint firstItem="hGe-Sd-UGU" firstAttribute="top" secondItem="OIz-mx-Bz4" secondAttribute="bottom" constant="8" id="Mqb-g5-lPg"/>
+                            <constraint firstItem="Lb9-z2-ABQ" firstAttribute="top" secondItem="bqi-hw-UU4" secondAttribute="bottom" constant="15" id="ZS6-E7-sQ0"/>
+                            <constraint firstItem="Ywg-i8-tdT" firstAttribute="top" secondItem="hGe-Sd-UGU" secondAttribute="bottom" constant="8" id="aw9-Zg-Iyh"/>
+                            <constraint firstItem="Jjt-pm-16E" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="iPl-AW-XUF"/>
+                            <constraint firstItem="Jjt-pm-16E" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="wCJ-0x-K4K"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="First" id="O7u-dh-HnC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="421.60000000000002" y="115.59220389805098"/>
+        </scene>
+        <!--In Current Sb View Controller-->
+        <scene sceneID="36Y-2t-tWu">
+            <objects>
+                <viewController storyboardIdentifier="InCurrentSbViewController" id="fui-39-K6N" customClass="InCurrentSbViewController" customModule="Instance" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IiV-oi-VNe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In current Storyboard" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="36" translatesAutoresizingMaskIntoConstraints="NO" id="GO3-oy-dWR">
+                                <rect key="frame" x="0.0" y="146.5" width="320" height="295.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-UltraLightItalic" family="Avenir Next" pointSize="72"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="GO3-oy-dWR" secondAttribute="trailing" id="7M2-At-Kc0"/>
+                            <constraint firstItem="GO3-oy-dWR" firstAttribute="centerY" secondItem="yMm-G5-mJn" secondAttribute="centerY" id="UVP-K4-RHi"/>
+                            <constraint firstItem="GO3-oy-dWR" firstAttribute="leading" secondItem="yMm-G5-mJn" secondAttribute="leading" id="mdo-vG-u0N"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yMm-G5-mJn"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gNC-OO-qYy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1137" y="116"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bGM-bo-E71">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yqM-Nh-aLS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FFb-fQ-6jG">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="pr8-sw-6ER"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x2g-jZ-8ko" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-289" y="117"/>
+        </scene>
+    </scenes>
+</document>

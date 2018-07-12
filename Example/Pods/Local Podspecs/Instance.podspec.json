@@ -1,0 +1,22 @@
+{
+  "name": "Instance",
+  "version": "0.1.0",
+  "summary": "A short description of Instance.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/SeRG1k17/Instance",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "SeRG1k17": "spu@bamboogroup.eu"
+  },
+  "source": {
+    "git": "https://github.com/SeRG1k17/Instance.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Instance/Classes/**/*"
+}

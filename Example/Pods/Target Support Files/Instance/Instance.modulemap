@@ -1,0 +1,6 @@
+framework module Instance {
+  umbrella header "Instance-umbrella.h"
+
+  export *
+  module * { export * }
+}
