@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Instance_Example' do
+  pod 'Instance', :path => '../'
+
+  target 'Instance_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
