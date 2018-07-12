@@ -89,7 +89,7 @@
 		A534805420F780500034390F /* SomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SomeView.xib; sourceTree = "<group>"; };
 		AF292FF1952CABB6C06D91C3 /* Pods_Instance_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instance_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8C98C800BAB59FD825DEC9 /* Pods-Instance_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instance_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instance_Example/Pods-Instance_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B44C7E5C3DD665C23E5E88FC /* Instance.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Instance.podspec; path = ../Instance.podspec; sourceTree = "<group>"; };
+		B44C7E5C3DD665C23E5E88FC /* Instance.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Instance.podspec; path = ../Instance.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CA25DCA95DD4FD830B08745D /* Pods_Instance_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instance_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E63118D7691CC67CB81CF2CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -584,7 +584,7 @@
 				INFOPLIST_FILE = Instance/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sergeyPugach.Instance-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -599,7 +599,7 @@
 				INFOPLIST_FILE = Instance/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sergeyPugach.Instance-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;

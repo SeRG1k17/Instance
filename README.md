@@ -22,8 +22,8 @@ pod 'Instance'
 
 ## Author
 
-SeRG1k17, spu@bamboogroup.eu
+Sergey Pugach, serg1k@icloud.com
 
 ## License
 
-Instance is available under the MIT license. See the LICENSE file for more info.
+Instance is available under the MIT license. See the [LICENSE](https://github.com/SeRG1k17/Instance/blob/master/LICENSE) file for more info.

@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/SeRG1k17/Instance'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Sergey Pugach' => 'spu@bamboogroup.eu' }
+  s.author           = { 'Sergey Pugach' => 'serg1k@icloud.com' }
   s.source           = { :git => 'https://github.com/SeRG1k17/Instance.git', :tag => s.version.to_s }
   s.social_media_url = 'https://vk.com/serg1k17'
 
