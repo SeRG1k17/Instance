@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yqM-Nh-aLS">
-    <device id="retina4_0" orientation="portrait">
+    <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -13,48 +13,48 @@
         <!--First-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Instance" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Instance_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jjt-pm-16E" customClass="BorderButton" customModule="Instance" customModuleProvider="target">
-                                <rect key="frame" x="35.5" y="80" width="249" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jjt-pm-16E" customClass="BorderButton" customModule="Instance_Example" customModuleProvider="target">
+                                <rect key="frame" x="259.5" y="80" width="249" height="30"/>
                                 <state key="normal" title="Controller in &quot;Second&quot; SB(not initial)"/>
                                 <connections>
                                     <action selector="secondVCDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F9a-SU-W0E"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqi-hw-UU4" customClass="BorderButton" customModule="Instance" customModuleProvider="target">
-                                <rect key="frame" x="59.5" y="125" width="201" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqi-hw-UU4" customClass="BorderButton" customModule="Instance_Example" customModuleProvider="target">
+                                <rect key="frame" x="283.5" y="125" width="201" height="30"/>
                                 <state key="normal" title="Show custom vc - another sb"/>
                                 <connections>
                                     <action selector="customVCDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MdT-kH-sHi"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lb9-z2-ABQ" customClass="BorderButton" customModule="Instance" customModuleProvider="target">
-                                <rect key="frame" x="75.5" y="170" width="168" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lb9-z2-ABQ" customClass="BorderButton" customModule="Instance_Example" customModuleProvider="target">
+                                <rect key="frame" x="299.5" y="170" width="168" height="30"/>
                                 <state key="normal" title="Show vc from current sb"/>
                                 <connections>
                                     <action selector="inCurrentVCDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jUj-7t-3du"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIz-mx-Bz4" customClass="BorderButton" customModule="Instance" customModuleProvider="target">
-                                <rect key="frame" x="89.5" y="217" width="141" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIz-mx-Bz4" customClass="BorderButton" customModule="Instance_Example" customModuleProvider="target">
+                                <rect key="frame" x="313.5" y="217" width="141" height="30"/>
                                 <state key="normal" title="nameSB == nameVC"/>
                                 <connections>
                                     <action selector="sameNamesDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nlN-K3-zV4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGe-Sd-UGU" customClass="BorderButton" customModule="Instance" customModuleProvider="target">
-                                <rect key="frame" x="129" y="255" width="62" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGe-Sd-UGU" customClass="BorderButton" customModule="Instance_Example" customModuleProvider="target">
+                                <rect key="frame" x="353" y="255" width="62" height="30"/>
                                 <state key="normal" title="From Xib"/>
                                 <connections>
                                     <action selector="xibDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DPm-sV-i6d"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ywg-i8-tdT" customClass="BorderButton" customModule="Instance" customModuleProvider="target">
-                                <rect key="frame" x="93" y="293" width="135" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ywg-i8-tdT" customClass="BorderButton" customModule="Instance_Example" customModuleProvider="target">
+                                <rect key="frame" x="316.5" y="293" width="135" height="30"/>
                                 <state key="normal" title="Collection From Xib"/>
                                 <connections>
                                     <action selector="collectionDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dv8-7Q-iLW"/>
@@ -87,13 +87,13 @@
         <!--In Current Sb View Controller-->
         <scene sceneID="36Y-2t-tWu">
             <objects>
-                <viewController storyboardIdentifier="InCurrentSbViewController" id="fui-39-K6N" customClass="InCurrentSbViewController" customModule="Instance" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InCurrentSbViewController" id="fui-39-K6N" customClass="InCurrentSbViewController" customModule="Instance_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IiV-oi-VNe">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In current Storyboard" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="36" translatesAutoresizingMaskIntoConstraints="NO" id="GO3-oy-dWR">
-                                <rect key="frame" x="0.0" y="146.5" width="320" height="295.5"/>
+                                <rect key="frame" x="0.0" y="473" width="768" height="98.5"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-UltraLightItalic" family="Avenir Next" pointSize="72"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -118,7 +118,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yqM-Nh-aLS" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FFb-fQ-6jG">
-                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="768" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

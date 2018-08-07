@@ -11,6 +11,7 @@
 		463DF3D0933E5E4C8F8567D3A2B0D2DC /* Instance-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 441F3144D1CA2942631D89AB91DE41DF /* Instance-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A23985B56DFE68B4CC16D61D471F114 /* Pods-Instance_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83BF5F8509E9450533E521B09801E050 /* Pods-Instance_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		980E47F6D51B8A560FE7070FE5943C36 /* Pods-Instance_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED74F7567AA9E164499666DA45D44A7 /* Pods-Instance_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A51B09CE20F90F3C00D3F39E /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51B09CD20F90F3C00D3F39E /* Storyboardable.swift */; };
 		A534809920F787710034390F /* UIStoryboard+Instance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534808E20F787710034390F /* UIStoryboard+Instance.swift */; };
 		A534809A20F787710034390F /* UIViewController+Instance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534808F20F787710034390F /* UIViewController+Instance.swift */; };
 		A534809B20F787710034390F /* UICollectionViewCell+Instance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534809120F787710034390F /* UICollectionViewCell+Instance.swift */; };
@@ -70,6 +71,7 @@
 		890A6860D1AE420DE02ED8A6C925537B /* Pods-Instance_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Instance_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A79B0BF6BD19F084BCCD54811FBD1FA /* Instance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Instance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51B09CD20F90F3C00D3F39E /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
 		A534808E20F787710034390F /* UIStoryboard+Instance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Instance.swift"; sourceTree = "<group>"; };
 		A534808F20F787710034390F /* UIViewController+Instance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Instance.swift"; sourceTree = "<group>"; };
 		A534809120F787710034390F /* UICollectionViewCell+Instance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Instance.swift"; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 			children = (
 				A534808D20F787710034390F /* Extensions */,
 				A534809720F787710034390F /* Instanceable.swift */,
+				A51B09CD20F90F3C00D3F39E /* Storyboardable.swift */,
 				A534809820F787710034390F /* ResourceType.swift */,
 				4B248B37733534E46AA6B864C4F476F5 /* Pod */,
 				227AF8579DFD42531E848F0F31308409 /* Support Files */,
@@ -399,6 +402,7 @@
 				A534809E20F787710034390F /* UITableViewHeaderFooterView+Instance.swift in Sources */,
 				A53480A120F787710034390F /* Instanceable.swift in Sources */,
 				3428CDDBB8530F8AF3AAC182FD3FF2D0 /* Instance-dummy.m in Sources */,
+				A51B09CE20F90F3C00D3F39E /* Storyboardable.swift in Sources */,
 				A53480A020F787710034390F /* UITableViewCell+Instance.swift in Sources */,
 				A534809920F787710034390F /* UIStoryboard+Instance.swift in Sources */,
 				A534809D20F787710034390F /* UITableView+Instance.swift in Sources */,

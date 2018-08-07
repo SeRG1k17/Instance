@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Instance
 
-class SecondViewController: UIViewController {
+class SecondViewController: UIViewController, Instanceable {
+    
+    var name: String = "Second"
 }

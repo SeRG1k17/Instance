@@ -13,7 +13,7 @@
 		A534805620F780500034390F /* XibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A534802B20F7804F0034390F /* XibViewController.xib */; };
 		A534805720F780500034390F /* XibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534802C20F7804F0034390F /* XibViewController.swift */; };
 		A534805820F780500034390F /* XibCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534802F20F7804F0034390F /* XibCollectionReusableView.swift */; };
-		A534805920F780500034390F /* XibCollectionViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = A534803020F7804F0034390F /* XibCollectionViewCell1.xib */; };
+		A534805920F780500034390F /* XibCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A534803020F7804F0034390F /* XibCollectionViewCell.xib */; };
 		A534805A20F780500034390F /* XibCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A534803120F7804F0034390F /* XibCollectionReusableView.xib */; };
 		A534805B20F780500034390F /* XibCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534803220F7804F0034390F /* XibCollectionViewCell.swift */; };
 		A534805C20F780500034390F /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A534803320F7804F0034390F /* CollectionViewController.xib */; };
@@ -58,7 +58,7 @@
 		A534802B20F7804F0034390F /* XibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibViewController.xib; sourceTree = "<group>"; };
 		A534802C20F7804F0034390F /* XibViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibViewController.swift; sourceTree = "<group>"; };
 		A534802F20F7804F0034390F /* XibCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibCollectionReusableView.swift; sourceTree = "<group>"; };
-		A534803020F7804F0034390F /* XibCollectionViewCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibCollectionViewCell1.xib; sourceTree = "<group>"; };
+		A534803020F7804F0034390F /* XibCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibCollectionViewCell.xib; sourceTree = "<group>"; };
 		A534803120F7804F0034390F /* XibCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibCollectionReusableView.xib; sourceTree = "<group>"; };
 		A534803220F7804F0034390F /* XibCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibCollectionViewCell.swift; sourceTree = "<group>"; };
 		A534803320F7804F0034390F /* CollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
@@ -234,7 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				A534802F20F7804F0034390F /* XibCollectionReusableView.swift */,
-				A534803020F7804F0034390F /* XibCollectionViewCell1.xib */,
+				A534803020F7804F0034390F /* XibCollectionViewCell.xib */,
 				A534803120F7804F0034390F /* XibCollectionReusableView.xib */,
 				A534803220F7804F0034390F /* XibCollectionViewCell.swift */,
 			);
@@ -379,7 +379,7 @@
 				A534807520F780500034390F /* SomeView.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 				A534806620F780500034390F /* XibTableViewCell.xib in Resources */,
-				A534805920F780500034390F /* XibCollectionViewCell1.xib in Resources */,
+				A534805920F780500034390F /* XibCollectionViewCell.xib in Resources */,
 				A534806C20F780500034390F /* MyTableViewController.storyboard in Resources */,
 				A534805A20F780500034390F /* XibCollectionReusableView.xib in Resources */,
 				A534806D20F780500034390F /* Custom.storyboard in Resources */,
