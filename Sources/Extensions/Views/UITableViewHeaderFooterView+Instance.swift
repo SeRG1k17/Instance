@@ -43,7 +43,8 @@ public extension UITableViewHeaderFooterView {
                                                                 withIdentifier identifier: String) -> T {
         
         guard
-            isRegistered(for: tableView, withIdentifier: identifier),
+            //TODO: - Another name for inner variable
+            //isRegistered(for: tableView, withIdentifier: identifier),
             let view = tableView.dequeueReusableHeaderFooterView(withIdentifier: identifier) as? T
             else {
                 return T()
