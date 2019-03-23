@@ -16,14 +16,14 @@ public extension UIView {
     
     class func instance(from instanceable: Instanceable,
                         owner: Any? = nil,
-                        options: [AnyHashable: Any]? = nil) -> Self {
+                        options: [UINib.OptionsKey: Any]? = nil) -> Self {
         
         return _instance(from: instanceable.name, owner: owner, options: options, bundle: instanceable.bundle)
     }
     
     class func instance<T: UIView>(from nibType: T.Type? = nil,
                                    owner: Any? = nil,
-                                   options: [AnyHashable: Any]? = nil,
+                                   options: [UINib.OptionsKey: Any]? = nil,
                                    bundle: Bundle = Bundle.main) -> Self {
         
         return _instance(from: nibType?.name ?? name, owner: owner, options: options, bundle: bundle)
@@ -31,7 +31,7 @@ public extension UIView {
     
     class func instance(from nibName: String,
                         owner: Any? = nil,
-                        options: [AnyHashable: Any]? = nil,
+                        options: [UINib.OptionsKey: Any]? = nil,
                         bundle: Bundle = Bundle.main) -> Self {
         
         return _instance(from: nibName, owner: owner, options: options, bundle: bundle)
@@ -52,7 +52,7 @@ public extension UIView {
     
     private class func _instance<T: UIView>(from nibName: String,
                                             owner: Any?,
-                                            options: [AnyHashable: Any]?,
+                                            options: [UINib.OptionsKey: Any]?,
                                             bundle: Bundle) -> T {
         
         guard exist(by: nibName, in: bundle, of: .nib) else {

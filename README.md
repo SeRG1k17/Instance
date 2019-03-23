@@ -17,7 +17,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 |  Swift Version |  Instance Version  |
 |----------------|--------------------|
-|       4.0      |        0.1.1     |
+|       4.2          |        0.1.2            |
 
 ## Introduction
 
